@@ -67,5 +67,7 @@ class Test(unittest.TestCase):
     def test18(self):
         self.assertEqual(main.equals1('100^ (1/2)'), '10.0')
 
+    def test19(self):
+        self.assertEqual(main.equals1('1+3+/2'), ' error ')
 if __name__ =="__main__":
     unittest.main()
